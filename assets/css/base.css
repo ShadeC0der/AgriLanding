@@ -1,0 +1,34 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+    line-height: 1.5;
+    background-color: #fff;
+    color: #111;
+}
+
+/* GENERAL STYLES */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+  
+ul {
+    list-style: none;
+}
+
+/* ACCESSIBILITY */
+html {
+    scroll-behavior: smooth;
+}
+
+:focus {
+    outline: 2px solid var(--clr-accent);
+    outline-offset: 2px;
+}
