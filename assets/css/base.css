@@ -1,3 +1,4 @@
+/* ========== BASE STYLES ========== */
 /* RESET */
 * {
     margin: 0;
@@ -9,15 +10,24 @@ html, body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: 100%;
     line-height: 1.5;
-    background-color: #fff;
     color: #111;
 }
 
 body {
+    min-height: 100vh;
     background: linear-gradient(to bottom, #b4d7e2 0%, #e9ca83 100%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* GENERAL STYLES */
+h2 {
+    text-align: center;
+    margin-top: 2%;
+    font-size: 35px;
+}
+
 a {
     color: inherit;
     text-decoration: none;
