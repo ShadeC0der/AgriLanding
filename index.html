@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/navbar.css">
     <link rel="stylesheet" href="./assets/css/hero.css">
+    <link rel="stylesheet" href="./assets/css/highlights.css">
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"> 
 </head>
@@ -27,7 +28,7 @@
           
            <!-- Links -->
             <ul class="nav-links">
-                <li><a href="#products" aria-label="Productos" title="Productos"><i class="fa-solid fa-carrot"></i></a></li>
+                <li><a href="#highlights" aria-label="Porqué nosotros" title="Porqué nosotros"><i class="fa-solid fa-seedling"></i></a></li>
                 <li><a href="#alliances" aria-label="Alianzas" title="Alianzas"><i class="fa-solid fa-handshake"></i></a></li>
                 <li><a href="#us" aria-label="Nosotros" title="Nosotros"><i class="fa-solid fa-tractor"></i></a></li>
                 <li><a href="#gallery" aria-label="Galería" title="Galería"><i class="fa-solid fa-image"></i></a></li>
@@ -47,15 +48,15 @@
     <main>
         <!-- HERO SECTION -->
         <section id="hero">
-            <!-- Box Image -->
-            <div class="hero-image">
-                <!-- Box Hero Info -->
+            <!-- Hero Image -->
+            <div class="hero-bg"></div>
+          
+            
+            <div class="hero-container">
                 <div class="hero-overlay">
                     <h1>Somos 🌿AgriLanding</h1>
-                    <p>Productores y comercializadores de papas y vegetales de calidad desde el sur de Chile</p>
+                    <p>Productores y comercializadores de papas y vegetales de calidad, desde el sur de Chile</p>
                 </div>
-                
-                <!-- Box Hero Buttons -->
                 <div class="hero-buttons">
                     <a href="#products" class="cta-button primary">Ver productos</a>
                     <a href="https://github.com/ShadeC0der" target="_blank" class="cta-button secondary">Proyecto en GitHub</a>
@@ -63,8 +64,28 @@
             </div>
         </section>
 
-        <!-- PRODUCTS SECTION -->
-        <section id="products">
+        <!-- HIGHLIGHTS SECTION -->
+        <section id="highlights">
+            <h2>¿Porqué nosotros?</h2>            
+            <div class="cards-container">
+                <!-- Card 1 -->
+                <div class="highlight-card">
+                    <span class="icon">🥔</span>
+                    <p>10 años de experiencia</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="highlight-card">
+                    <span class="icon">🌱</span>
+                    <p>Cultivo sustentable</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="highlight-card">
+                    <span class="icon">🚚</span>
+                    <p>Venta al por mayor y menor</p>
+                </div>
+            </div>
         </section>
 
         <!-- ALLIANCES SECTION -->
@@ -102,7 +123,7 @@
         </div>
 
         <!-- Project Version -->
-        <p>AgriLanding v0.0.1</p>
+        <p>AgriLanding v0.3.0</p>
     </footer>
 </body>
 </html>
