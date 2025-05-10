@@ -32,17 +32,17 @@
 
 .history .overlay {
     background: linear-gradient(to top, rgb(0, 0, 0), rgba(211, 37, 86, 0.171)), 
-    url('../img/history.png') no-repeat center center / cover;
+    url('../img/us/history.png') no-repeat center center / cover;
 }
 
 .mision .overlay {
     background: linear-gradient(to top, rgb(0, 0, 0), rgba(211, 37, 86, 0.171)), 
-    url('../img/mision.png') no-repeat center center / cover;
+    url('../img/us/mision.png') no-repeat center center / cover;
 }
 
 .vision .overlay {
     background: linear-gradient(to top, rgb(0, 0, 0), rgba(211, 37, 86, 0.171)), 
-    url('../img/vision.png') no-repeat center center / cover;
+    url('../img/us/vision.png') no-repeat center center / cover;
 }
 
 .box h3, .box p {
